@@ -75,8 +75,8 @@ h2 {
   .wrapper {
     width: 100%;
   }
-  .footer {
-    display: none;
+  .desktop-links {
+    visibility: hidden;
   }
   .mobile-links {
     visibility: inherit;
@@ -87,8 +87,8 @@ h2 {
   .wrapper {
     width: 100%;
   }
-  .footer {
-    display: none;
+  .desktop-links {
+    visibility: hidden;
   }
   .mobile-links {
     visibility: inherit;
