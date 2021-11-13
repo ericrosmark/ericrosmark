@@ -50,6 +50,10 @@ h2 {
   visibility: hidden;
 }
 
+.desktop-links {
+  visibility: hidden;
+}
+
 @media (max-width: 1550px) {
   .wrapper {
     width: 25%;
