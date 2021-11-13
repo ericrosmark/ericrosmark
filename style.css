@@ -46,9 +46,16 @@ h2 {
   width: 20vw;
 }
 
+.mobile-links {
+  visibility: hidden;
+}
+
 @media (max-width: 1550px) {
   .wrapper {
     width: 25%;
+  }
+  .mobile-links {
+    visibility: hidden;
   }
 }
 
@@ -68,11 +75,23 @@ h2 {
   .wrapper {
     width: 100%;
   }
+  .footer {
+    visibility: hidden;
+  }
+  .mobile-links {
+    visibility: inherit;
+  }
 }
 
 @media (max-width: 375px) {
   .wrapper {
     width: 100%;
+  }
+  .footer {
+    visibility: hidden;
+  }
+  .mobile-links {
+    visibility: inherit;
   }
 }
 
