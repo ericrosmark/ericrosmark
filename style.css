@@ -18,39 +18,33 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-size: 16px;
 }
 
 body {
   font-family: neue-haas-grotesk;
   background-color: #f1f1f1;
   color:#000;
-  font-size: 16px;
+
   font-weight: 550;
   line-height: 125%;
   }
 
 h1 {
-  font-size: 16px;
   font-weight: 650;
 }
 
 h2 {
-  font-size: 16px;
   font-weight: 550;
-  content: \1F865;
 }
 
 .wrapper {
-  height: 100vh;
+  height: 100%;
   padding: 1rem;
   width: 20vw;
 }
 
 .mobile-links {
-  visibility: hidden;
-}
-
-.desktop-links {
   visibility: hidden;
 }
 
@@ -99,14 +93,11 @@ h2 {
   }
 }
 
-
 #email {
   color: #0000FF;
 }
 
 #email:hover {
-  -webkit-transition: color 100ms ease;
-  transition: color 100ms ease;
   text-decoration: underline;
   background: none;
 }
@@ -121,10 +112,6 @@ a:hover{
   color: #0000FF;
   -webkit-transition: color 500ms ease;
   transition: color 500ms ease;
-}
-
-.bold{
-  font-weight: 650;
 }
 
 .break {
