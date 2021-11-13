@@ -44,6 +44,13 @@ h2 {
   width: 20vw;
 }
 
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 1em;
+}
+
 .mobile-links {
   visibility: hidden;
 }
@@ -73,11 +80,11 @@ h2 {
   .wrapper {
     width: 100%;
   }
-  .desktop-links {
-    visibility: hidden;
-  }
   .mobile-links {
     visibility: inherit;
+  }
+  .footer {
+    display: none;
   }
 }
 
@@ -85,11 +92,11 @@ h2 {
   .wrapper {
     width: 100%;
   }
-  .desktop-links {
-    visibility: hidden;
-  }
   .mobile-links {
     visibility: inherit;
+  }
+  .footer {
+    display: none;
   }
 }
 
@@ -124,9 +131,3 @@ a:hover{
   padding-bottom: 2rem;
 }
 
-.footer {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 1em;
-}
