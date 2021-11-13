@@ -1,0 +1,122 @@
+@font-face {
+  font-family: neue-haas-grotesk;
+  src: url(fonts/NHaasGroteskDSStd-55Rg.otf);
+}
+
+::selection {
+  color: #fff;
+  background: #0000FF;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #0000FF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: neue-haas-grotesk;
+  background-color: #f1f1f1;
+  color:#000;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 125%;
+  }
+
+h1 {
+  font-size: 16px;
+  font-weight: 650;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 550;
+  content: \1F865;
+}
+
+.wrapper {
+  height: 100vh;
+  padding: 1rem;
+  width: 20vw;
+}
+
+@media (max-width: 1550px) {
+  .wrapper {
+    width: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+
+#email {
+  color: #0000FF;
+}
+
+#email:hover {
+  -webkit-transition: color 100ms ease;
+  transition: color 100ms ease;
+  text-decoration: underline;
+  background: none;
+}
+
+a{
+  color: #1b1b1b;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #0000FF;
+  -webkit-transition: color 500ms ease;
+  transition: color 500ms ease;
+}
+
+.bold{
+  font-weight: 650;
+}
+
+.break {
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+
+.double-break {
+  display: inline-block;
+  padding-bottom: 2rem;
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 1em;
+}
