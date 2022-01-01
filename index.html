@@ -207,14 +207,17 @@
                 arrows: false,
             });
 
-            $('.paginator-right').click(function() {
-                $('.image-container').slick('slickNext');
-            });
+            $('.slick-container').each(function(){
+                const img = $(this).find('.image-container');
 
-            $('.paginator-left').click(function() {
-                $('.image-container').slick('slickPrev');
-            });
+                $(this).find('.paginator-right').click(function(){
+                    img.slick('slickNext');
+                })
 
+                $(this).find('.paginator-left').click(function(){
+                    img.slick('slickPrev');
+                })
+            });
         });
     </script>
 </body>
