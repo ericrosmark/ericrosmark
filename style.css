@@ -28,7 +28,6 @@ body {
   font-family: neue-haas-grotesk, sans-serif;
   background-color: #fff;
   color:#000;
-
   font-weight: 550;
   line-height: 125%;
   }
@@ -91,29 +90,16 @@ a:hover{
 
 }
 
-/*.video {
-  position: relative;
-  padding: 56.25%;
-  height: 0;
-}*/
-
-/*.desktop-video {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}*/
-
 .slick-container {
   position: relative;
-  background-color: #000;
+  /*background-color: #000;*/
 }
 
 .paginator {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 9999;
+  z-index: 99999;
 }
 
 .paginator-left {
@@ -123,6 +109,7 @@ a:hover{
   left: 0;
   top: 0;
   display: block;
+
 }
 
 .paginator-right {
@@ -264,13 +251,17 @@ a:hover{
 }
 
 @media (max-width: 736px) {
+
+  .paginator {
+    display: none;
+  }
+  
   .info-wrapper {
     width: 100%;
   }
 
   .row {
     display: inline-block;
-    
   }
   
   .title {
@@ -295,106 +286,3 @@ a:hover{
     display: inline-block;
   }
 }
-
-@media (max-width: 576px) {
-  
-}
-
-
-
-
-/*@media only screen and (min-width: 768px)
-button.slick-prev {
-  z-index: 1;
-  width: 50%;
-  height: 100%;
-  cursor: w-resize;
-}
-
-/*.slick-prev, .slick-next {
-  font-size: 0;
-  line-height: 0;
-  position: absolute;
-  top: 50%;
-  display: block;
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  cursor: pointer;
-  color: transparent;
-  outline: none;
-  border: none;
-  background: transparent;
-}
-
-
-
-
-/*.mobile-text {
-  display: none;
-  padding: 1em;
-}*/
-
-
-/*.project {
-  height: 100vh;
-}*/
-
-
-/*img {
-  display: block;
-  max-width:1900px;
-  max-height:1200px;
-  width: auto;
-  height: auto;
-}*/
-
-/* RESPONSIVE */
-
-/*@media (max-width: 1550px) {
-  .info-wrapper {
-    width: 25%;
-  }
-  .mobile-links {
-    visibility: hidden;
-  }
-}
-
-@media (max-width: 992px) {
-  .info-wrapper {
-    width: 40%;
-  }
-}
-
-@media (max-width: 768px) {
-  .info-wrapper {
-    width: 50%;
-  }
-}
-
-@media (max-width: 576px) {
-  .info-wrapper {
-    width: 100%;
-  }
-  .mobile-links {
-    visibility: inherit;
-  }
-  .footer {
-    display: none;
-  }
-}
-
-@media (max-width: 375px) {
-  .info-wrapper {
-    width: 100%;
-  }
-  .mobile-links {
-    visibility: inherit;
-  }
-  .footer {
-    display: none;
-  }
-}*/
