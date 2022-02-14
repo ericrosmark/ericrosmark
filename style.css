@@ -87,7 +87,11 @@ a:hover{
 
 .image-container {
   min-height: 100%;
+}
 
+.info-wrapper-mobile {
+  display: none;
+  padding: 0em 1em 1em 1em;
 }
 
 .slick-container {
@@ -144,8 +148,6 @@ a:hover{
   text-indent: 20px;
 }
 
-
-
 .break {
   display: inline-block;
   padding-bottom: 1rem;
@@ -190,6 +192,10 @@ a:hover{
 @media (max-width: 1200px) {
   .wrapper {
     display: block;
+  }
+
+  .info-wrapper-mobile {
+    display: inline-block;
   }
 
   .experience {
@@ -255,6 +261,7 @@ a:hover{
 }
 
 @media (max-width: 736px) {
+
   .paginator {
     display: none;
   }
