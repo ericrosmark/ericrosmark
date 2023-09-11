@@ -6,15 +6,15 @@
   display: none;
 }
 
-/*::selection {
+::selection {
   color: #fff;
-  background: #0000FF;
+  background: #1a1a1a;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #0000FF;
-}*/
+  background: #1a1a1a;
+}
 
 * {
   box-sizing: border-box;
@@ -44,8 +44,7 @@ b {
   font-weight: 650;
 }
 
-a{
-  /*color: #7a7a7a;*/
+a {
   color: #1a1a1a;
   text-decoration: underline;
 }
@@ -56,10 +55,6 @@ a:hover{
   transition: color 500ms ease;
   text-decoration: underline;
 }
-
-/*#email {
-  color: #0000FF;
-}*/
 
 #email:hover {
   text-decoration: underline;
