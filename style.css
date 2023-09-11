@@ -6,7 +6,7 @@
   display: none;
 }
 
-::selection {
+/*::selection {
   color: #fff;
   background: #0000FF;
 }
@@ -14,7 +14,7 @@
 ::-moz-selection {
   color: #fff;
   background: #0000FF;
-}
+}*/
 
 * {
   box-sizing: border-box;
@@ -57,9 +57,9 @@ a:hover{
   text-decoration: underline;
 }
 
-#email {
+/*#email {
   color: #0000FF;
-}
+}*/
 
 #email:hover {
   text-decoration: underline;
@@ -188,8 +188,6 @@ a:hover{
 #year-mobile {
   display: none;
 }
-
-
 
 @media (max-width: 1200px) {
   .wrapper {
