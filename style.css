@@ -27,9 +27,9 @@
 body {
   font-family: neue-haas-grotesk, sans-serif;
   background-color: #fff;
-  color:#000;
+  color:#1a1a1a;
   font-weight: 550;
-  line-height: 125%;
+  line-height: 130%;
   }
 
 h1 {
@@ -45,14 +45,16 @@ b {
 }
 
 a{
-  color: #1b1b1b;
-  text-decoration: none;
+  /*color: #7a7a7a;*/
+  color: #1a1a1a;
+  text-decoration: underline;
 }
 
 a:hover{
-  color: #0000FF;
+  color: #a2a2a2;
   -webkit-transition: color 500ms ease;
   transition: color 500ms ease;
+  text-decoration: underline;
 }
 
 #email {
